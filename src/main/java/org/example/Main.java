@@ -2,6 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Factorial factorial=new Factorial();
+       int result= factorial.Fact(3);
+
+        System.out.println(result);
     }
 }
