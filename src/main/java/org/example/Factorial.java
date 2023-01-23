@@ -1,6 +1,7 @@
 package org.example;
 
 public class Factorial {
+
     public int Fact (int number)
     {
 
